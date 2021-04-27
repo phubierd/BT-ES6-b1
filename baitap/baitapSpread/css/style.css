@@ -35,7 +35,7 @@
     font-size: 8em;
     font-weight: bold;
     transition: transform 0.2s;
-    cursor: url("http://csscursor.info/source/santahand.png"), default;
+    /* cursor: url("http://csscursor.info/source/santahand.png"), default; */
   }
   
   span:hover {
