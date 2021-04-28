@@ -43,6 +43,8 @@ const hienThiDS = () => {
 
 hienThiDS();
 
+const listButton = document.getElementsByClassName("color-button");
+listButton[0].classList.add("active");
 
 
 
