@@ -12,16 +12,15 @@ const colorList = [
 ];
 
 const GetButtonActive = (value) => {
-  console.log(value);
   const button_list = document.getElementsByClassName("color-button");
   
   for (var i = 0; i < button_list.length; i++) {
     if (value === i) {
-      console.log(true);
+      // console.log(true);
       button_list[i].classList.add("active");
       document.getElementById("house").classList.add(colorList[i]);
     } else {
-      console.log(false);
+      // console.log(false);
       button_list[i].classList.remove("active");
       document.getElementById("house").classList.remove(colorList[i]);
     }
