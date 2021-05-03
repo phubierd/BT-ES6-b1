@@ -1,9 +1,9 @@
 // console.log(document.querySelector(".heading").innerHTML)
 var letter = [...document.querySelector(".heading").innerHTML]
-// console.log(letter)
+    // console.log(letter)
 
 // hiện danh sách chữ
-const tachChu = () =>{
+const tachChu = () => {
     let content = "";
     letter.map((item) => {
         content += `
@@ -13,5 +13,3 @@ const tachChu = () =>{
     document.querySelector(".heading").innerHTML = content
 }
 tachChu();
-
-
